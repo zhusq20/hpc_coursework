@@ -1,0 +1,12 @@
+[..1851/PA3/src/util.cu:74 (argParse)] dset = "arxiv" (std::string)
+[..1851/PA3/src/data.cu:5 (load_graph)] loading
+[..51/PA3/test/main.cpp:17 (main)] kLen = 32 (int)
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from SpMMTest
+[ RUN      ] SpMMTest.validation
+/home/course/hpc/users/2020011851/PA3/test/test_spmm.cu:43: Failure
+Expected: (valid(p_out_feat_vec, p_out_feat_vec_ref, kNumV * kLen)) < (kNumV * kLen / 10000 + 1), actual: 3434783 vs 542
+
+[  FAILED  ] SpMMTest.validation (53 ms)
+[ RUN      ] SpMMTest.cusparse_performance

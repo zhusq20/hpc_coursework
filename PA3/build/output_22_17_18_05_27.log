@@ -1,0 +1,319 @@
+[..1851/PA3/src/util.cu:74 (argParse)] dset = "arxiv" (std::string)
+[..1851/PA3/src/data.cu:5 (load_graph)] loading
+[..51/PA3/test/main.cpp:17 (main)] kLen = 256 (int)
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from SpMMTest
+[ RUN      ] SpMMTest.validation
+/home/course/hpc/users/2020011851/PA3/test/test_spmm.cu:43: Failure
+Expected: (valid(p_out_feat_vec, p_out_feat_vec_ref, kNumV * kLen)) < (kNumV * kLen / 10000 + 1), actual: 27404128 vs 4336
+
+[  FAILED  ] SpMMTest.validation (414 ms)
+[ RUN      ] SpMMTest.cusparse_performance
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.00299222 (double)
+[       OK ] SpMMTest.cusparse_performance (311 ms)
+[ RUN      ] SpMMTest.opt_performance
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.00193085 (double)
+[       OK ] SpMMTest.opt_performance (78 ms)
+[----------] 3 tests from SpMMTest (803 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (803 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SpMMTest.validation
+
+ 1 FAILED TEST
+[..1851/PA3/src/util.cu:74 (argParse)] dset = "collab" (std::string)
+[..1851/PA3/src/data.cu:5 (load_graph)] loading
+[..51/PA3/test/main.cpp:17 (main)] kLen = 256 (int)
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from SpMMTest
+[ RUN      ] SpMMTest.validation
+/home/course/hpc/users/2020011851/PA3/test/test_spmm.cu:43: Failure
+Expected: (valid(p_out_feat_vec, p_out_feat_vec_ref, kNumV * kLen)) < (kNumV * kLen / 10000 + 1), actual: 60227758 vs 6039
+
+[  FAILED  ] SpMMTest.validation (222 ms)
+[ RUN      ] SpMMTest.cusparse_performance
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.00520386 (double)
+[       OK ] SpMMTest.cusparse_performance (383 ms)
+[ RUN      ] SpMMTest.opt_performance
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.00270412 (double)
+[       OK ] SpMMTest.opt_performance (109 ms)
+[----------] 3 tests from SpMMTest (715 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (715 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SpMMTest.validation
+
+ 1 FAILED TEST
+[..1851/PA3/src/util.cu:74 (argParse)] dset = "citation" (std::string)
+[..1851/PA3/src/data.cu:5 (load_graph)] loading
+[..51/PA3/test/main.cpp:17 (main)] kLen = 256 (int)
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from SpMMTest
+[ RUN      ] SpMMTest.validation
+/home/course/hpc/users/2020011851/PA3/test/test_spmm.cu:43: Failure
+Expected: (valid(p_out_feat_vec, p_out_feat_vec_ref, kNumV * kLen)) < (kNumV * kLen / 10000 + 1), actual: 715399957 vs 74956
+
+[  FAILED  ] SpMMTest.validation (2918 ms)
+[ RUN      ] SpMMTest.cusparse_performance
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0788196 (double)
+[       OK ] SpMMTest.cusparse_performance (2846 ms)
+[ RUN      ] SpMMTest.opt_performance
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0338394 (double)
+[       OK ] SpMMTest.opt_performance (1275 ms)
+[----------] 3 tests from SpMMTest (7040 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (7040 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SpMMTest.validation
+
+ 1 FAILED TEST
+[..1851/PA3/src/util.cu:74 (argParse)] dset = "ddi" (std::string)
+[..1851/PA3/src/data.cu:5 (load_graph)] loading
+[..51/PA3/test/main.cpp:17 (main)] kLen = 256 (int)
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from SpMMTest
+[ RUN      ] SpMMTest.validation
+/home/course/hpc/users/2020011851/PA3/test/test_spmm.cu:43: Failure
+Expected: (valid(p_out_feat_vec, p_out_feat_vec_ref, kNumV * kLen)) < (kNumV * kLen / 10000 + 1), actual: 1089789 vs 110
+
+[  FAILED  ] SpMMTest.validation (104 ms)
+[ RUN      ] SpMMTest.cusparse_performance
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.00155357 (double)
+[       OK ] SpMMTest.cusparse_performance (255 ms)
+[ RUN      ] SpMMTest.opt_performance
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.00130726 (double)
+[       OK ] SpMMTest.opt_performance (40 ms)
+[----------] 3 tests from SpMMTest (400 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (400 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SpMMTest.validation
+
+ 1 FAILED TEST
+[..1851/PA3/src/util.cu:74 (argParse)] dset = "protein" (std::string)
+[..1851/PA3/src/data.cu:5 (load_graph)] loading
+[..51/PA3/test/main.cpp:17 (main)] kLen = 256 (int)
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from SpMMTest
+[ RUN      ] SpMMTest.validation
+/home/course/hpc/users/2020011851/PA3/test/test_spmm.cu:43: Failure
+Expected: (valid(p_out_feat_vec, p_out_feat_vec_ref, kNumV * kLen)) < (kNumV * kLen / 10000 + 1), actual: 33849427 vs 3393
+
+[  FAILED  ] SpMMTest.validation (7353 ms)
+[ RUN      ] SpMMTest.cusparse_performance
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0808389 (double)
+[       OK ] SpMMTest.cusparse_performance (2657 ms)
+[ RUN      ] SpMMTest.opt_performance
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0449675 (double)
+[       OK ] SpMMTest.opt_performance (1376 ms)
+[----------] 3 tests from SpMMTest (11387 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (11387 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SpMMTest.validation
+
+ 1 FAILED TEST
+[..1851/PA3/src/util.cu:74 (argParse)] dset = "ppa" (std::string)
+[..1851/PA3/src/data.cu:5 (load_graph)] loading
+[..51/PA3/test/main.cpp:17 (main)] kLen = 256 (int)
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from SpMMTest
+[ RUN      ] SpMMTest.validation
+/home/course/hpc/users/2020011851/PA3/test/test_spmm.cu:43: Failure
+Expected: (valid(p_out_feat_vec, p_out_feat_vec_ref, kNumV * kLen)) < (kNumV * kLen / 10000 + 1), actual: 147178725 vs 14753
+
+[  FAILED  ] SpMMTest.validation (3798 ms)
+[ RUN      ] SpMMTest.cusparse_performance
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0849671 (double)
+[       OK ] SpMMTest.cusparse_performance (2794 ms)
+[ RUN      ] SpMMTest.opt_performance
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0273649 (double)
+[       OK ] SpMMTest.opt_performance (862 ms)
+[----------] 3 tests from SpMMTest (7455 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (7455 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SpMMTest.validation
+
+ 1 FAILED TEST
+[..1851/PA3/src/util.cu:74 (argParse)] dset = "reddit.dgl" (std::string)
+[..1851/PA3/src/data.cu:5 (load_graph)] loading
+[..51/PA3/test/main.cpp:17 (main)] kLen = 256 (int)
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from SpMMTest
+[ RUN      ] SpMMTest.validation
+/home/course/hpc/users/2020011851/PA3/test/test_spmm.cu:43: Failure
+Expected: (valid(p_out_feat_vec, p_out_feat_vec_ref, kNumV * kLen)) < (kNumV * kLen / 10000 + 1), actual: 59497788 vs 5964
+
+[  FAILED  ] SpMMTest.validation (10232 ms)
+[ RUN      ] SpMMTest.cusparse_performance
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.202348 (double)
+[       OK ] SpMMTest.cusparse_performance (6317 ms)
+[ RUN      ] SpMMTest.opt_performance
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.065524 (double)
+[       OK ] SpMMTest.opt_performance (2007 ms)
+[----------] 3 tests from SpMMTest (18557 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (18557 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SpMMTest.validation
+
+ 1 FAILED TEST
+[..1851/PA3/src/util.cu:74 (argParse)] dset = "products" (std::string)
+[..1851/PA3/src/data.cu:5 (load_graph)] loading
+[..51/PA3/test/main.cpp:17 (main)] kLen = 256 (int)
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from SpMMTest
+[ RUN      ] SpMMTest.validation
+/home/course/hpc/users/2020011851/PA3/test/test_spmm.cu:43: Failure
+Expected: (valid(p_out_feat_vec, p_out_feat_vec_ref, kNumV * kLen)) < (kNumV * kLen / 10000 + 1), actual: 613064469 vs 62696
+
+[  FAILED  ] SpMMTest.validation (11192 ms)
+[ RUN      ] SpMMTest.cusparse_performance
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.258391 (double)
+[       OK ] SpMMTest.cusparse_performance (8102 ms)
+[ RUN      ] SpMMTest.opt_performance
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0843869 (double)
+[       OK ] SpMMTest.opt_performance (2736 ms)
+[----------] 3 tests from SpMMTest (22031 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (22031 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SpMMTest.validation
+
+ 1 FAILED TEST
+[..1851/PA3/src/util.cu:74 (argParse)] dset = "youtube" (std::string)
+[..1851/PA3/src/data.cu:5 (load_graph)] loading
+[..51/PA3/test/main.cpp:17 (main)] kLen = 256 (int)
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from SpMMTest
+[ RUN      ] SpMMTest.validation
+/home/course/hpc/users/2020011851/PA3/test/test_spmm.cu:43: Failure
+Expected: (valid(p_out_feat_vec, p_out_feat_vec_ref, kNumV * kLen)) < (kNumV * kLen / 10000 + 1), actual: 290616161 vs 29146
+
+[  FAILED  ] SpMMTest.validation (1239 ms)
+[ RUN      ] SpMMTest.cusparse_performance
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0144353 (double)
+[       OK ] SpMMTest.cusparse_performance (700 ms)
+[ RUN      ] SpMMTest.opt_performance
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.00964126 (double)
+[       OK ] SpMMTest.opt_performance (341 ms)
+[----------] 3 tests from SpMMTest (2281 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (2281 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SpMMTest.validation
+
+ 1 FAILED TEST
+[..1851/PA3/src/util.cu:74 (argParse)] dset = "amazon_cogdl" (std::string)
+[..1851/PA3/src/data.cu:5 (load_graph)] loading
+[..51/PA3/test/main.cpp:17 (main)] kLen = 256 (int)
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from SpMMTest
+[ RUN      ] SpMMTest.validation
+/home/course/hpc/users/2020011851/PA3/test/test_spmm.cu:43: Failure
+Expected: (valid(p_out_feat_vec, p_out_feat_vec_ref, kNumV * kLen)) < (kNumV * kLen / 10000 + 1), actual: 276885099 vs 40191
+
+[  FAILED  ] SpMMTest.validation (21857 ms)
+[ RUN      ] SpMMTest.cusparse_performance
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.517197 (double)
+[       OK ] SpMMTest.cusparse_performance (15814 ms)
+[ RUN      ] SpMMTest.opt_performance
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.158116 (double)
+[       OK ] SpMMTest.opt_performance (4818 ms)
+[----------] 3 tests from SpMMTest (42490 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (42490 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SpMMTest.validation
+
+ 1 FAILED TEST
+[..1851/PA3/src/util.cu:74 (argParse)] dset = "yelp" (std::string)
+[..1851/PA3/src/data.cu:5 (load_graph)] loading
+[..51/PA3/test/main.cpp:17 (main)] kLen = 256 (int)
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from SpMMTest
+[ RUN      ] SpMMTest.validation
+/home/course/hpc/users/2020011851/PA3/test/test_spmm.cu:43: Failure
+Expected: (valid(p_out_feat_vec, p_out_feat_vec_ref, kNumV * kLen)) < (kNumV * kLen / 10000 + 1), actual: 182510465 vs 18352
+
+[  FAILED  ] SpMMTest.validation (1325 ms)
+[ RUN      ] SpMMTest.cusparse_performance
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.029981 (double)
+[       OK ] SpMMTest.cusparse_performance (1147 ms)
+[ RUN      ] SpMMTest.opt_performance
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0122387 (double)
+[       OK ] SpMMTest.opt_performance (409 ms)
+[----------] 3 tests from SpMMTest (2882 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (2882 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SpMMTest.validation
+
+ 1 FAILED TEST
+[..1851/PA3/src/util.cu:74 (argParse)] dset = "wikikg2" (std::string)
+[..1851/PA3/src/data.cu:5 (load_graph)] loading
+[..51/PA3/test/main.cpp:17 (main)] kLen = 256 (int)
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from SpMMTest
+[ RUN      ] SpMMTest.validation
+/home/course/hpc/users/2020011851/PA3/test/test_spmm.cu:43: Failure
+Expected: (valid(p_out_feat_vec, p_out_feat_vec_ref, kNumV * kLen)) < (kNumV * kLen / 10000 + 1), actual: 636757690 vs 64016
+
+[  FAILED  ] SpMMTest.validation (575 ms)
+[ RUN      ] SpMMTest.cusparse_performance
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0166461 (double)
+[       OK ] SpMMTest.cusparse_performance (850 ms)
+[ RUN      ] SpMMTest.opt_performance
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0227502 (double)
+[       OK ] SpMMTest.opt_performance (888 ms)
+[----------] 3 tests from SpMMTest (2315 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (2315 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SpMMTest.validation
+
+ 1 FAILED TEST
+[..1851/PA3/src/util.cu:74 (argParse)] dset = "am" (std::string)
+[..1851/PA3/src/data.cu:5 (load_graph)] loading
+[..51/PA3/test/main.cpp:17 (main)] kLen = 256 (int)
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from SpMMTest
+[ RUN      ] SpMMTest.validation
